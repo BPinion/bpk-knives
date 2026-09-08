@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPK Knives | Custom Forged Knives</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #120e0c;
+            color: #e5e0dc;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #d4a359;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header / Navbar */
+        header {
+            background-color: #1c1512;
+            padding: 1.5rem 2rem;
+            text-align: center;
+            border-bottom: 2px solid #3d2d24;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 3px;
+            color: #f2ede9;
+            text-transform: uppercase;
+        }
+
+        header p {
+            color: #a89f91;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem 1.5rem;
+            text-align: center;
+            background: linear-gradient(180deg, #1c1512 0%, #120e0c 100%);
+        }
+
+        .hero-img {
+            max-width: 100%;
+            width: 650px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+            border: 1px solid #3d2d24;
+        }
+
+        /* Hardness Banner */
+        .hardness-banner {
+            background-color: #261c17;
+            border-top: 1px solid #3d2d24;
+            border-bottom: 1px solid #3d2d24;
+            text-align: center;
+            padding: 1.5rem 1rem;
+            margin-top: 2rem;
+        }
+
+        .hardness-banner h2 {
+            color: #d4a359;
+            font-size: 1.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .hardness-banner p {
+            color: #a89f91;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+        }
+
+        /* Steel Performance Grid */
+        .steel-section {
+            max-width: 1100px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .steel-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .steel-card {
+            background-color: #1a1310;
+            padding: 2rem;
+            border-radius: 6px;
+            border: 1px solid #2e211b;
+            text-align: center;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .steel-card:hover {
+            transform: translateY(-5px);
+            border-color: #d4a359;
+        }
+
+        .steel-card h3 {
+            font-size: 1.5rem;
+            color: #f2ede9;
+            margin-bottom: 0.25rem;
+        }
+
+        .steel-card .subtitle {
+            font-size: 0.85rem;
+            color: #d4a359;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        .steel-card p {
+            color: #b8aea5;
+            font-size: 0.95rem;
+        }
+
+        /* Contact Footer */
+        footer {
+            background-color: #0a0807;
+            border-top: 2px solid #2e211b;
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .contact-item {
+            font-size: 1.1rem;
+        }
+
+        .contact-item strong {
+            color: #d4a359;
+            display: block;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.25rem;
+        }
+
+        .copyright {
+            margin-top: 2.5rem;
+            color: #665d56;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>BPK Knives</h1>
+        <p>Custom Forged Excellence</p>
+    </header>
+
+    <!-- Main Hero Section -->
+    <section class="hero">
+        <!-- Replace 'flyer.jpg' with the actual filename of your saved flyer image -->
+        <img src="flyer.jpg" alt="BPK Knives Custom Collection Flyer" class="hero-img">
+    </section>
+
+    <!-- Hardness Rating Banner -->
+    <section class="hardness-banner">
+        <h2>Performance Characteristics</h2>
+        <p><strong>60 HRC</strong> on the Hardness Scale</p>
+    </section>
+
+    <!-- Steel Details Section -->
+    <section class="steel-section">
+        <div class="steel-grid">
+            <div class="steel-card">
+                <h3>Nitro-V</h3>
+                <div class="subtitle">Stainless Steel</div>
+                <p>Tough, corrosion resistant, and holds a sharp edge.</p>
+            </div>
+            <div class="steel-card">
+                <h3>AEB-L</h3>
+                <div class="subtitle">Stainless Steel</div>
+                <p>Excellent edge retention, easy to sharpen, and great corrosion resistance.</p>
+            </div>
+            <div class="steel-card">
+                <h3>1095</h3>
+                <div class="subtitle">Carbon Steel</div>
+                <p>Makes an incredible edge.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Order Section -->
+    <footer>
+        <h2>Get in Touch</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <strong>Email</strong>
+                <a href="mailto:brentpinion@gmail.com">brentpinion@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <strong>Phone</strong>
+                <a href="tel:6205067134">620-506-7134</a>
+            </div>
+            <div class="contact-item">
+                <strong>Location</strong>
+                <span>Arkansas City, Kansas</span>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; BPK Knives. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
